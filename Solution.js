@@ -74,3 +74,12 @@ function initializeQueueWithWaterPoints(input, topographyWithMaxHeight, queue) {
         }
     }
 }
+
+/**
+ * @param {number} row
+ * @param {number} column
+ * @return {boolean}  
+ */
+function isInMatrix(row, column) {
+    return row >= 0 && row < this.rows && column >= 0 && column < this.columns;
+}
